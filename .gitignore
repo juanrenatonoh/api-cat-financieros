@@ -1,0 +1,50 @@
+# Entornos virtuales
+venv/
+.env
+.env.*
+.venv/
+
+# Archivos generados por Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Archivos de compilación o caché
+build/
+dist/
+*.egg-info/
+*.eggs
+
+# Configuración de Docker (si usas Docker)
+docker-compose.override.yml
+*.env.docker
+
+# Archivos de testeo
+.coverage
+.tox/
+nosetests.xml
+pytest_cache/
+
+# Archivos para despliegues
+*.pem
+*.key
+secrets.json
+
+# Configuración de Uvicorn/servicio
+*.pid
+
+# Archivos de documentación generados
+docs/_build/
+
+# Configuración local (opcional)
+*.local
