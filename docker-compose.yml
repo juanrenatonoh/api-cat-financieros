@@ -1,0 +1,12 @@
+
+services:
+  app:
+    build: .
+    container_name: api-cat-financieros
+    ports:
+      - "8000:80"
+    networks:
+      - network-api-cat-financieros
+networks:
+  network-api-cat-financieros:
+
